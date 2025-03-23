@@ -39,7 +39,7 @@ void main(){
     color: KColorScheme.secondaryContainer,
    margin: EdgeInsets.symmetric(
      horizontal: 16,
-     vertical: 8,
+     vertical: 12,
    ),
    ),
 
