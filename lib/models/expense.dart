@@ -11,13 +11,10 @@ enum Category{
   work,leisure,travel,food
 }
 const CategoryIcons = {
-  Category.work : Icons.money,
-Category.leisure: Icons.party_mode,
-
-  Category.food : Icons.food_bank,
-  Category.travel: Icons.travel_explore,
-
-
+  Category.work: Icons.work, // Work-related expenses
+  Category.leisure: Icons.sports_esports, // Leisure (gaming, fun, entertainment)
+  Category.food: Icons.fastfood, // Food expenses
+  Category.travel: Icons.flight_takeoff, // Travel-related expenses
 };
 
 class expense{

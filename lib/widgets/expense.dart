@@ -14,12 +14,12 @@ class Expense extends StatefulWidget {
 class _ExpenseState extends State<Expense> {
   List<expense> _resisteredExpenses = [
     expense(
-        title: "flutter",
-        amount: 19.99,
+        title: "USA Trip",
+        amount: 991.99,
         date: DateTime.now(),
         category: Category.work),
     expense(
-        title: "Machine Learning",
+        title: "City Trip",
         amount: 19.99,
         date: DateTime.now(),
         category: Category.leisure),
